@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 
-ARG DAGSTER_VERSION=1.5.3
+ARG DAGSTER_VERSION=1.5.5
 
 # All packages are hard-pinned to `dagster`, so setting the version on just `DAGSTER` will ensure
 # compatible versions.
